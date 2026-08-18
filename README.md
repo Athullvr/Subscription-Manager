@@ -4,7 +4,7 @@ A full-stack Subscription Manager application with a Django backend and a React 
 
 ## 🚀 Live Demo
 
-- **Frontend (Vercel)**: [https://subscription-manager-frontend.vercel.app](https://subscription-manager-frontend.vercel.app) *(Update with your actual Vercel URL)*
+- **Frontend (Vercel)**: [https://subscription-manager-frontend-two.vercel.app](https://subscription-manager-frontend-two.vercel.app)
 - **Backend API (Render)**: [https://subscription-manager-backend.onrender.com](https://subscription-manager-backend.onrender.com) *(Update with your actual Render URL)*
 
 ## 🛠️ Tech Stack
