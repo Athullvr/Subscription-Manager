@@ -1,7 +1,9 @@
 import axios from 'axios';
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000/api';
+
 const instance = axios.create({
-  baseURL: 'http://localhost:8000/api',
+  baseURL: API_BASE_URL,
 });
 
 instance.interceptors.request.use(
@@ -29,7 +31,7 @@ instance.interceptors.response.use(
           throw new Error('No refresh token');
         }
 
-        const response = await axios.post('http://localhost:8000/api/token/refresh/', {
+        const response = await axios.post(`${API_BASE_URL}/token/refresh/`, {
           refresh: refreshToken,
         });
 
